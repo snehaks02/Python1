@@ -1,0 +1,36 @@
+#st=input("enter name:")
+#print(st)
+
+s="My name is Sneha K S "
+print(s.upper())
+print(s.lower())
+print(len(s))
+print(s.capitalize())
+print(s.count("a"))
+print(s.split())
+print("my name is{}.I am {} years old.".format("sneha k s",20))
+print(s.startswith("M"))
+print(s.endswith("k"))
+print(s.replace("Sneha","sandra"))
+print(s.partition("Sne"))
+
+print("\n list")
+#list
+
+l=[89,7.8,25]
+print(len(l))
+print(max(l))
+print(min(l))
+l.sort(reverse=True)
+print(l)
+l.append("python")
+print(l)
+l.extend(["java",8.9])
+print(l)
+print(l.index(7.8))
+print(l)
+l.remove(25)
+print(l)
+print(l.pop(1))
+l.insert(1,"c++")
+print(l)
